@@ -51,7 +51,7 @@ exports.artistCreateValidator = (req, res, next) => {
 
 
 
-exports.createCommentValidator = (req, res, next) => {
+exports.addCommentValidator = (req, res, next) => {
     // title
     req.check("user", "auth is not implemtent, pls copy any user _id!").notEmpty();
     // title
